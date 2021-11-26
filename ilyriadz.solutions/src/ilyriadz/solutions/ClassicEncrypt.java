@@ -33,7 +33,10 @@ public class ClassicEncrypt
         for (int i = 0; i < ALPHABET.length; i++) 
         {
             if (c == ALPHABET[i])
+            {
                 pos = i;
+                break;
+            } // end if
         }
         
         return pos;
